@@ -6,13 +6,29 @@ let reversed = String(mot.reversed())
 print("le mot insere est :",mot,"\n\n")
 print("le mot insere a l'envers est : ",reversed,"\n\n")
 
-let N = (mot.count)/2
-let M = mot.count
+//let N = (mot.count)/2
+let M = mot.count - 1
 var co = 0
+var palindrome = true
+
+for i in 0...M {
+
+    //let val = 
+    //let value = laval
+
+    if  ( array[i] != array[ M - i ] ) && (i < M - i ) {
+
+        palindrome = false
+        break 
+        
+    }
+
+}
 
 
+print(palindrome)
 
-    for i in 0..<N {
+    /*for i in 0..<N {
 
         if( M % 2 == 0 ){
 
@@ -24,6 +40,8 @@ var co = 0
 
                 co = co + 1
 
+            } else {
+                break ;
             }
 
 
@@ -58,4 +76,4 @@ var co = 0
 
         print(" ==> Donc \(mot) n'est pas un palindrome.")
 
-    }
+    }*/

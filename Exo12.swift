@@ -1,4 +1,4 @@
-/*let numbers = ["ismail", "figi", "ismail", "ismail", "figi", "balouki", "balouki"]
+/*let numbers = ["xxxx", "figi", "xxxx", "xxxx", "figi", "xxx", "xx"]
 print(numbers)
 
 
@@ -64,7 +64,7 @@ func TableToDictionnary(tab: [String]) -> [String:String] {
                 cpt += 1
             }
         }
-        someDict[tb[i]] = String(cpt) + " " + "fois"
+        someDict[tb[i]] = "==>"+String(cpt) + " " + "fois"
 
     }
 
@@ -74,8 +74,8 @@ func TableToDictionnary(tab: [String]) -> [String:String] {
 
 }
 
-print("tableau entier:")
-let numbers = ["ismail", "figi", "ismail", "ismail", "figi", "balouki", "balouki"]
+print("tableau Complet des données:")
+let numbers = ["ismail", "figi", "ismail", "ismail", "figi", "bal", "bal"]
 print(numbers)
 
 print("\n")
